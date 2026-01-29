@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OODA Website - Homepage</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sketch.js/1.1/sketch.min.js"></script>
+    <script src="./gsap.min.js"></script>
+    <script src="./ScrollTrigger.min.js"></script>
+    <script src="./MotionPathPlugin.min.js"></script>
+    <script src="./gsap-latest-beta.min.js"></script>
+    <script src="./ScrollSmoother.min.js"></script>
+    <link rel="icon" href="./homepage/images/logo.svg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/sirxemic/jquery.ripples/dist/jquery.ripples-min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.28/bundled/lenis.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./slider.css">
+</head>
+
+<body style="opacity: 0;">
+
+    <div class="click-overlay fade-out" id="clickOverlay">
+        <div class="click-message">
+            Click to Explore OODA
+        </div>
+    </div>
+
+    <div id="video-preloader"
+        style="position: fixed; z-index: 9999; max-width: 100vw; max-height: 100vh; overflow: hidden; background: black; display: flex; align-items: center; justify-content: center;">
+        <video id="preload-video" autoplay muted playsinline
+            style="max-width: 100%; max-height: 100%; object-fit: cover; height: 100%; width: 100%;">
+            <source src="./preloader_animatino_video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header class="navbar">
+        <div class="logo-wrapper">
+            <div class="logo">
+                <img src="././homepage/images/logo.svg" alt="OODA Bond Logo" loading="eager"
+                    style="opacity: 1 !important;" />
+            </div>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="nav-links">
+            <a href="../homepage" class="active">HOME</a>
+            <a href="../about_us">ABOUT US</a>
+            <a href="#" class="products-link">PRODUCTS</a>
+            <a href="../Applications/">APPLICATIONS</a>
+            <a href="../contact">CONTACT US</a>
+            <a href="#" class="nav-button">Book Free Demo <i class="fa-solid fa-arrow-up button-arrow"></i></a>
+
+        </nav>
+    </header>
+    <div class="positoin-flxed">
+        <div class="product-nav-content">
+
+            <div class="product-link-img-container">
+                <div class="link-grid">
+                    <div class="grid-inner-list">
+                        <a href="../Product Pages/109_Ultra_Clear.html" class="grid-item-card ">
+                            <p>1. 109 Ultra Clear</p>
+                        </a>
+                        <a href="../Product Pages/109_UV_Ultra_Clear.html" class="grid-item-card ">
+                            <p>2. 109 UV Ultra Clear</p>
+                        </a>
+                        <a href="../Product Pages/1K_Single_Part_Epoxy.html" class="grid-item-card ">
+                            <p>3. 1K Single part epoxy</p>
+                        </a>
+                        <a href="../Product Pages/TG-109_Thermal_Conductive_Grease.html" class="grid-item-card">
+                            <p>4. TG-109 Thermal Conductive Grease</p>
+                        </a>
+                    </div>
+                    <div class="grid-inner-list">
+                        <a href="../Product Pages/2870_Thread_Locker.html" class="grid-item-card">
+                            <p>5. Thread Lockers</p>
+                        </a>
+                        <a href="../Product Pages/Preekkote_85–S.html" class="grid-item-card">
+                            <p>6. Pre Applied Thread Lockers</p>
+                        </a>
+                        <a href="../Product Pages/V52_Aluminium_Putty.html" class="grid-item-card">
+                            <p>7. V52 Aluminium Putty</p>
+                        </a>
+                        <a href="../Product Pages/11116_Metal_Expoxy.html" class="grid-item-card">
+                            <p>8. 11116 Metal Expoxy</p>
+                        </a>
+                    </div>
+                    <div class="grid-inner-list">
+                        <a href="../Product Pages/Nylon-11_Liquid_Powder.html" class="grid-item-card ">
+                            <p>9. Nylon-11 Liquid Powder</p>
+                        </a>
+                        <a href="../Product Pages/MOS2-W_Dry_Coating.html" class="grid-item-card">
+                            <p>10. MOS2-W Dry Coating</p>
+                        </a>
+                        <a href="../Product Pages/High_Temperature_Ptfe_Grease.html" class="grid-item-card">
+                            <p>11. High Temperature Ptfe Grease</p>
+                        </a>
+                        <a href="../Product Pages/High_Strength.html" class="grid-item-card">
+                            <p>12. Bearing Retainers </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="product-img-container">
+                    <img src="../nav/Product1.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <img src="../nav/nav_wave.png" alt="wave" class="wave-img">
+    </div>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content" style="position: relative;">
+
+            <div class="parent-hero">
+                <video src="./products.mp4" autoplay loop muted playsinline></video>
+            </div>
+
+            <section class="img-reveal">
+                <div class="img-overlay">
+                    <img src="./homepage/images/trusted_products/trusted_pro_desktop.webp" alt="Responsive mockup image"
+                        id="imageRevealFront">
+                </div>
+            </section>
+
+            <section class='demo-text'>
+                <div class='wrapper text'>
+                    OODA BOND EXTREME PERFORMANCE
+                </div>
+            </section>
+
+
+            <div class="gallery-container">
+                <section class='demo-gallery'>
+                    <ul class='wrapper'>
+
+                        <li><img height='874' src='./slide images/Mockup 3.webp' width='1240'></li>
+                        <li><img height='874' src='./slide images/Mockup 1.webp' width='1240'></li>
+                        <li><img height='874' src='./slide images/Mockup 2.webp' width='1240'></li>
+
+                    </ul>
+                </section>
+                <section class='demo-gallery'>
+                    <ul class='wrapper'>
+                        <li><img height='874' src='./slide images/Mockup 8.webp' width='1240'></li>
+                        <li><img height='874' src='./slide images/Mockup 6.webp' width='1240'></li>
+                        <li><img height='874' src='./slide images/Mockup 7.webp' width='1240'></li>
+
+                    </ul>
+                </section>
+                <section class='demo-gallery'>
+                    <ul class='wrapper'>
+                        <li><img height='874' src='./slide images/Mockup 4.webp' width='1240'></li>
+                        <li><img height='874' src='./slide images/Mockup 5.webp' width='1240'></li>
+                        <li><img height='874' src='./slide images/Mockup 14.webp' width='1240'></li>
+                    </ul>
+                </section>
+            </div>
+
+
+            <div class="why-choose-video-section">
+                <div class="why-choose-video">
+                    <video src="./why choose oda.mp4" autoplay muted loop style="width: 100%; height: auto;"></video>
+                </div>
+            </div>
+
+            <div class="bullet-grid">
+                <div class="bullet-item">Cost savings - reduced cost per assemble</div>
+                <div class="bullet-item">Increased productivity</div>
+                <div class="bullet-item">Increased product reliability</div>
+                <div class="bullet-item">On time delivery, on time support</div>
+                <div class="bullet-item">Technical support 24/7</div>
+                <div class="bullet-item">Customized and tailor-made solutions possible</div>
+                <div class="bullet-item">Free demo for all our products</div>
+                <div class="bullet-item">100% meet customer need with satisfaction</div>
+                <div class="bullet-item">Locally made manufacturing facility - Chennai, Tamil Nadu, India</div>
+            </div>
+
+            <section class="short-brief-section">
+                <div class="short-brief-heading-container">
+                    <h2 class="short-brief-heading-1">Get To</h2>
+                    <div class="short-brief-heading-container">
+                        <h2 class="short-brief-heading-2">Know Us</h2>
+                    </div>
+                </div>
+
+                <p class="short-brief-description">
+                    As a Master and leader in the global adhesive and sealant industry, our mission statement is to
+                    provide
+                    the highest quality products for each market sector covered by our product range with a
+                    corresponding
+                    high level of customer and technical support.
+                </p>
+                <button class="short-brief-button" style="--content: 'Know more';"
+                    href="https://twitter.com/kamildyrek">
+                    <div class="left"></div>
+                    Know more
+                    <div class="right"></div>
+                </button>
+                <div class="short-brief-relative-container">
+
+                    <picture>
+                        <!-- Tablet and below (up to 991px) -->
+                        <source media="(max-width: 991px)"
+                            srcset="./homepage/images/short_brief/about-us-glowing-image.svg">
+
+                        <!-- Desktop (992px and above) -->
+                        <source media="(min-width: 992px)"
+                            srcset="./homepage/images/short_brief/about-us-glowing-image.svg">
+
+                        <!-- Fallback image (used if none of the above matches) -->
+                        <img src="./homepage/images/short_brief/about-us-glowing-image.svg" alt="Responsive image" />
+                    </picture>
+
+
+                    <div class="short-brief-card">
+                        <div class="short-brief-card-child">
+                            <span class="short-brief-label">Best Product's</span>
+                            <span class="short-brief-count" data-count="350" data-splitend="+">0</span>
+                        </div>
+                        <div class="short-brief-card-child">
+                            <span class="short-brief-label">Working Staff's</span>
+                            <span class="short-brief-count" data-count="65" data-splitend="">0</span>
+                        </div>
+                        <div class="short-brief-card-child">
+                            <span class="short-brief-label">Application's</span>
+                            <span class="short-brief-count" data-count="120" data-splitend="">0</span>
+                        </div>
+                        <div class="short-brief-card-child">
+                            <span class="short-brief-label">Happy Customer's</span>
+                            <span class="short-brief-count" data-count="100" data-splitend="+">0</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="image-grid-section">
+                <div class="content">
+                    <div class="grid">
+                        <div class="layer">
+                            <div><img src="./product images/Img 09.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/lifts_and_elevator.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/magnet_bonding.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/metal_expoxy_putty.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/Img 02.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/Img 10.webp" alt="" />
+                            </div>
+                        </div>
+                        <div class="layer">
+                            <div><img src="./product images/Img 14.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/Img 03.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/pcp_potting.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/cctv_camera.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/medical_device_syringe_needles.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/Img 12.webp" alt="" />
+                            </div>
+                        </div>
+                        <div class="layer">
+                            <div><img src="./product images/Img 13.webp" alt="" /></div>
+                            <div><img src="./product images/Img 14.webp" alt="" />
+                            </div>
+                            <div><img src="./product images/Img 15.webp" alt="" />
+                            </div>
+                        </div>
+                        <div class="scaler">
+                            <img src="./product images/Adhesive Solutions.webp" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="lenis-scroll-container" style="display: none;">
+                <div class="mob-animate-grid-wrapper">
+                    <div class="mob-animate-grid">
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 14.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 02.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 03.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 04.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card center-card"> <img src="./product images/Img 07.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 06.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 11.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 08.webp"
+                                alt="application-images" loading="lazy"></div>
+                        <div class="mob-animate-grid-card"> <img src="./product images/Img 09.webp"
+                                alt="application-images" loading="lazy"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slider-sec">
+                <div class="industries-we-serve-content-header">
+                    <p>Industries</p>
+                    <div class="industries-we-serve-weServe">
+                        <p>We Serve</p>
+                    </div>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/aero_space_1.webp" alt="Business meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Aerospace</h1>
+                                    <h2>Used for bonding structural parts, panels, and reducing vibrations while
+                                        maintaining lightweight strength
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Automotive.webp" alt="Modern workplace">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Automotive</h1>
+                                    <h2>Automotive Drive systems like gear and motor assembly
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Electronics.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Electronics</h1>
+                                    <h2>Electronic industry PCB, MOBILE, SMART GADGETS, SENSORS.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Medical.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Medical</h1>
+                                    <h2>Medical industry devixea syringes, catheters, instruments
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/EV vehicles.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>EV Vehicles</h1>
+                                    <h2>Ev vechicles, Motor magnet assembly, Battery pack assembly, charger assembly
+                                        etc..
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Fastners.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Fastners</h1>
+                                    <h2>Fastners thread coating, locking sealing.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Railways.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Railways</h1>
+                                    <h2>Applied in coach body bonding, interior panels, and sealing for durability and
+                                        noise control.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Minings.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Mining</h1>
+                                    <h2>Ensures strong bonding of heavy components and protection against dust,
+                                        moisture, and vibrations.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./homepage/images/industries_we_serve/Marine.webp" alt="Team meeting">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <h1>Marine</h1>
+                                    <h2>Used for bonding hulls, decks, and fittings with resistance to corrosion and
+                                        harsh marine conditions.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-wrapper">
+
+                <section class="products-section" id="productSection">
+                    <div class="heading">
+                        <p>BUILDING BONDS</p>
+                        <div class="product-revealer">ACROSS</div>
+                        <p>INDUSTRIAL ASSEMBLIES</p>
+                    </div>
+                    <div class="cards-container" id="cardsContainer">
+                        <!-- Repeat this card 5 times -->
+                        <a class="card" href="../Product Pages/109_Ultra_Clear.html" target="_blank">
+                            <img class="center-image first-center-img" src="./productImg/ultraClear/827x1193.webp"
+                                srcset="./productImg/ultraClear/500x721.webp 500w, ./productImg/ultraClear/800x1154.webp 800w, ./productImg/ultraClear/827x1193.webp 827w" />
+                            <img class="bg-image" src="./homepage/images/products/Card 1/955x603.webp"
+                                srcset="./homepage/images/products/Card 1/500x316.webp 500w, ./images/products/Card 1/800x505.webp 800w, ./images/products/Card 1/955x603.webp 955w" />
+                            <div class="product-name"> 109 Ultra Clear</div>
+
+                        </a>
+                        <a class="card" href="../Product Pages/109_UV_Ultra_Clear.html" target="_blank">
+                            <img class="center-image" src="./homepage/images/products/Bottle/827x1193/Blue.webp"
+                                srcset="./homepage/images/products/Bottle/500x721/Blue.webp 500w, ./homepage/images/products/Bottle/800x 1154/Blue.webp 800w, ./homepage/images/products/Bottle/827x1193/Blue.webp 827w" />
+                            <img class="bg-image" src="./homepage/images/products/Card 2/955x603.webp"
+                                srcset="./homepage/images/products/Card 2/500x316.webp 500w, ./images/products/Card 2/800x505.webp 800w, ./images/products/Card 2/955x603.webp 955w" />
+                            <div class="product-name">109 UV Ultra Clear</div>
+
+                        </a>
+                        <a class="card" href="../Product Pages/1K_Single_Part_Epoxy.html" target="_blank">
+                            <img class="center-image" src="./productImg/1kSingleEProxy/827x1193.webp"
+                                srcset="./productImg/1kSingleEProxy/500x721.webp 500w, ./productImg/1kSingleEProxy/800x1154.webp 800w, ./productImg/1kSingleEProxy/827x1193.webp 827w" />
+                            <img class="bg-image" src="./homepage/images/products/Card 3/955x603.webp"
+                                srcset="./homepage/images/products/Card 3/500x316.webp 500w, ./images/products/Card 3/800x505.webp 800w, ./images/products/Card 3/955x603.webp 955w" />
+                            <div class="product-name">1K SINGLE
+                                <br> PART EPOXY
+                            </div>
+
+                        </a>
+                        <a class="card" href="../Product Pages/TG-109_Thermal_Conductive_Grease.html" target="_blank">
+                            <img class="center-image" src="./productImg/thermalGrease/827x1193.webp"
+                                srcset="./productImg/thermalGrease/500x721.webp 500w, ./productImg/thermalGrease/800x1154.webp 800w, ./productImg/thermalGrease/827x1193.webp 827w" />
+                            <img class="bg-image" src="./homepage/images/products/Card 5/955x603.webp"
+                                srcset="./homepage/images/products/Card 5/500x316.webp 500w, ./images/products/Card 5/800x505.webp 800w, ./images/products/Card 5/955x603.webp 955w" />
+                            <div class="product-name">TG 109
+                                THERMAL CONDUCTIVE GREASE</div>
+
+                        </a>
+                        <a class="card" href="../Product Pages/Preekkote_85–S.html" target="_blank">
+                            <img class="center-image" src="./productImg/preApplied/827x1193.webp"
+                                srcset="./productImg/preApplied/500x721.webp 500w, ./productImg/preApplied/800x1154.webp 800w, ./productImg/preApplied/827x1193.webp 827w" />
+                            <img class="bg-image" src="./homepage/images/products/Card 4/955x603.webp"
+                                srcset="./homepage/images/products/Card 4/500x316.webp 500w, ./images/products/Card 4/800x505.webp 800w, ./images/products/Card 4/955x603.webp 955w" />
+                            <div class="product-name">85 –S Pre Applied Thread
+                                Coating</div>
+                        </a>
+                    </div>
+
+                </section>
+                <button class="view-more-button" style="--content: 'View More';" href="https://twitter.com/kamildyrek">
+                    <div class="left"></div>
+                    View More
+                    <div class="right"></div>
+                </button>
+            </div>
+
+
+            <footer class="footer-main">
+
+                <div class="footer-new">
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <img src="../White logo.svg" alt="OODA Bond Logo" class="footer-logo2" />
+                            <div class="social-icons">
+                                <a href="#"><img src="../footer/fb_svg.svg" alt="Facebook" /></a>
+                                <a href="#"><img src="../footer/twitter_svg.svg" alt="X (Twitter)" /></a>
+                                <a href="#"><img src="../footer/youtub_svg.svg" alt="Play" /></a>
+                                <a href="#"><img src="../footer/telegram_svg.svg" alt="Telegram" /></a>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <p class="grid-title">Useful Links</p>
+                            <ul class="useful_links">
+                                <li><i class="fas fa-home"></i> <a href="../homepage/index.html">Home</a></li>
+                                <li> <i class="fas fa-info-circle"></i> <a href="../about_us/index.html">About</a></li>
+                                <li> <i class="fas fa-th-large"></i> <a
+                                        href="../Applications/index.html">Applications</a></li>
+                                <li><i class="fas fa-paper-plane"></i> <a href="../contact/index.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid-item">
+                            <p class="grid-title">Contact Info</p>
+                            <ul class="contact-list">
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:customercare@oodabond.com">customercare@oodabond.com</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a href="tel:+919840338011">+91 9840338011</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <a href="https://maps.app.goo.gl/Qo4fodPDAKp4Fne9A" target="_blank"> Thiruvengada
+                                        Perumal Kovil Street, Vengadamangalam, <br>
+                                        Ponmar Post, Chennai - 600048</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-overlay-text-container">
+                    <img src="../footer/ooda_bond_text.svg" alt="OODA BOND Overlay" />
+                </div>
+            </footer>
+
+        </div>
+        <canvas class="fluid"></canvas>
+    </div>
+
+
+
+    <script>
+        $(function () {
+
+            $(".homeContainer").ripples({
+                resolution: 512,
+                dropRadius: 20,
+                perturbance: 1,
+            });
+
+            $(".img-reveal").ripples({
+                resolution: 512,
+                dropRadius: 20,
+                perturbance: 1,
+            });
+
+        });
+
+    </script>
+
+    <script src="../homecursor.js"></script>
+    <script src="../lenis.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/CustomEase.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./slider.js"></script>
+    <script src="script.js"></script>
+    <script src="..//global.js"></script>
+
+    <script>
+        document.body.style.opacity = 1;
+    </script>
+</body>
+
+</html>

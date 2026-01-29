@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OODA BOND</title>
+  <link rel="icon" href="./logo.svg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      overflow: hidden;
+      background: black;
+    }
+
+    #video-preloader {
+      position: fixed;
+      z-index: 9999;
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    #preload-video {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="video-preloader">
+    <video id="preload-video" autoplay muted playsinline>
+      <source src="./Why Choose Preloader.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script>
+   
+    sessionStorage.setItem("triggerPreloader", "true");
+    window.location.href = "./homepage/index.html";
+        
+  </script>
+</body>
+
+</html> 

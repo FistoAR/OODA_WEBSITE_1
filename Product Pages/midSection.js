@@ -91,11 +91,11 @@ $(document).ready(() => {
       "Open pot life mixed": "30 to 35 minutes"
     },
     applications: {
-      "./assets/images/application_image/electric_potting.webp": "Electronic potting",
-      "./assets/images/application_image/pcb _coating.webp": "PCB coating",
-      "./assets/images/application_image/glassware_products.webp": "Glassware products",
-      "./assets/images/application_image/motor.webp": "Motors and Bonding of Rigid surfaces",
-      "./assets/images/application_image/electric_vehicle_coating.webp": "Electric Vehicle's coatings"
+      "./assets/images/application_image/109_uc/Electronic_potting.jpg": "Electronic potting",
+      "./assets/images/application_image/109_uc/PCB_coating.jpg": "PCB coating",
+      "./assets/images/application_image/109_uc/Glassware_products.jpg": "Glassware products",
+      "./assets/images/application_image/109_uc/Motors_and_Bonding_of_Rigid_surfaces.jpg": "Motors and Bonding of Rigid surfaces",
+      "./assets/images/application_image/109_uc/Electric_Vehicle_coatings.jpg": "Electric Vehicle's coatings"
 
     },
     benefits: [
@@ -122,11 +122,11 @@ $(document).ready(() => {
       "Viscosity": "2000–4000 cP @ 25°C, 20 RPM"
     },
     applications: {
-      "./assets/images/109 UV Altra clear/Lens bonding.webp": "Lens bonding",
-      "./assets/images/109 UV Altra clear/Electric Encapsulation.webp": "Electronic encapsulation",
-      "./assets/images/109 UV Altra clear/Bonding of all metals.webp": "Bonding of metals,Plastics",
-      "./assets/images/109 UV Altra clear/Coating.webp": "Coating",
-      "./assets/images/109 UV Altra clear/Medical device assemblies.webp": "Medical device assemblies"
+      "./assets/images/application_image/109_uv_uc/Lens_bonding.jpg": "Lens bonding",
+      "./assets/images/application_image/109_uv_uc/Electronic_encapsulation.jpg": "Electronic encapsulation",
+      "./assets/images/application_image/109_uv_uc/Bonding_of_metals_Plastics.jpg": "Bonding of metals,Plastics",
+      "./assets/images/application_image/109_uv_uc/Coating.jpg": "Coating",
+      "./assets/images/application_image/109_uv_uc/Medical_device_assemblies.jpg": "Medical device assemblies"
     },
     benefits: [
       "Cure on Demand",
@@ -150,11 +150,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Not applicable"
     },
     applications: {
-      "./assets/images/TG-109 THERMAL/Heat sink.webp": "Heat sink",
-      "./assets/images/TG-109 THERMAL/LED Modules.webp": "LED Modules",
-      "./assets/images/TG-109 THERMAL/Electronic assemblies.webp": "Electronic assemblies",
-      "./assets/images/TG-109 THERMAL/Thin film RTD.webp": "Thin film RTD",
-      "./assets/images/TG-109 THERMAL/Power components.webp": "Power components"
+      "./assets/images/application_image/109_TG/Heat_sink.webp": "Heat sink",
+      "./assets/images/application_image/109_TG/LED_Modules.webp": "LED Modules",
+      "./assets/images/application_image/109_TG/Electronic_assemblies.webp": "Electronic assemblies",
+      "./assets/images/application_image/109_TG/Thin_film_RTD.webp": "Thin film RTD",
+      "./assets/images/application_image/109_TG/Power_Components.webp": "Power components"
     },
     benefits: [
       "High thermal conductivity",
@@ -176,11 +176,11 @@ $(document).ready(() => {
       "Curing time": "2–3 minutes (with activator)",
     },
     applications: {
-      "./assets/images/Preekkote 85–S/Transmission nuts.webp": "Transmission nuts",
-      "./assets/images/Preekkote 85–S/Marine.webp": "Marine",
-      "./assets/images/Preekkote 85–S/Constrcution.webp": "Construction",
-      "./assets/images/Preekkote 85–S/Pipe plugs and fittings.webp": "Pipe plugs and fittings",
-      "./assets/images/Preekkote 85–S/Automobile.webp": "Automobile"
+      "./assets/images/application_image/thread-lockers-pre-applied/Transmission_Nuts.webp": "Transmission nuts",
+      "./assets/images/application_image/thread-lockers-pre-applied/Marine.webp": "Marine",
+      "./assets/images/application_image/thread-lockers-pre-applied/Construction.webp": "Construction",
+      "./assets/images/application_image/thread-lockers-pre-applied/Pipe_plugs_and_fittings.webp": "Pipe plugs and fittings",
+      "./assets/images/application_image/thread-lockers-pre-applied/Automobile.webp": "Automobile"
     },
     benefits: [
       "Prevents loosening of bolts due to vibration",
@@ -206,11 +206,11 @@ $(document).ready(() => {
       "Viscosity": "2000–4000 cP @ 25°C, 20 RPM",
     },
     applications: {
-      "./assets/images/1K Single part/Magnet & Motor Assembly.webp": "Magnet & Motor Assembly",
-      "./assets/images/1K Single part/Bonding of ferrites.webp": "Bonding of ferrites",
-      "./assets/images/1K Single part/Speaker assembly.webp": "Speaker assembly",
-      "./assets/images/1K Single part/Bonding of ceramics.webp": "Bonding of ceramics",
-      "./assets/images/1K Single part/Electronic Component Bonding.webp": "Electronic Component Bonding"
+      "./assets/images/application_image/single_part_epoxy/Magnet_Motor_Assembly.webp": "Magnet & Motor Assembly",
+      "./assets/images/application_image/single_part_epoxy/Bonding_of_Ferrites.webp": "Bonding of ferrites",
+      "./assets/images/application_image/single_part_epoxy/Speaker_Assembly.webp": "Speaker assembly",
+      "./assets/images/application_image/single_part_epoxy/Bonding_of_Ceramics.webp": "Bonding of ceramics",
+      "./assets/images/application_image/single_part_epoxy/Electronic_Component_Bonding.webp": "Electronic Component Bonding"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -235,11 +235,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Maximum 4 minutes",
     },
     applications: {
-      "./assets/images/Metal_epoxy/05.webp": "Pipe Sealant",
-      "./assets/images/Metal_epoxy/04.webp": "Leather",
-      "./assets/images/Metal_epoxy/08.webp": "phenolic laminates",
-      "./assets/images/Metal_epoxy/01.webp": "Epoxy",
-      "./assets/images/Metal_epoxy/07.webp": "Wood"
+      "./assets/images/application_imagse/11116/Pipe_Sealant.webp": "Pipe Sealant",
+      "./assets/images/application_image/11116/Leathe.webp": "Leather",
+      "./assets/images/application_image/11116/phenolic_laminates.webp": "phenolic laminates",
+      "./assets/images/application_image/11116/Epoxy.webp": "Epoxy",
+      "./assets/images/application_image/11116/Wood.webp": "Wood"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -407,11 +407,11 @@ $(document).ready(() => {
       "Curing time": "Preheat: 650°F for 6 min Postheat: 475°F for 1 minute",
     },
     applications: {
-      "./assets/images/Thread_locker/Transmission nuts.webp": "Transmission nuts",
-      "./assets/images/Thread_locker/Truck axle bolts.webp": "Truck axle bolts",
-      "./assets/images/Thread_locker/Aviation.webp": "Aerospace/Aviation",
-      "./assets/images/Thread_locker/Larger threaded fasteners and studs.webp": "Larger threaded fasteners and studs",
-      "./assets/images/Thread_locker/Pipe plugs and fittings.webp": "Pipe plugs and fittings"
+      "./assets/images/application_image/thread-lockers/Transmission_nuts.webp": "Transmission nuts",
+      "./assets/images/application_image/thread-lockers/LED_Modules.webp": "Truck axle bolts",
+      "./assets/images/application_image/thread-lockers/Aerospace_Aviation.webp": "Aerospace/Aviation",
+      "./assets/images/application_image/thread-lockers/Large_threaded.webp": "Larger threaded fasteners and studs",
+      "./assets/images/application_image/thread-lockers/Power_Components.webp": "Pipe plugs and fittings"
     },
     benefits: [
       "Excellent adhesive strength",

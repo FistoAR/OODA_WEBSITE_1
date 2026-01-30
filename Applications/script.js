@@ -186,9 +186,9 @@ $(document).ready(function () {
       "./Images/THERMAL SENSOR POTTINGS Service/3.webp",
       "./Images/THERMAL SENSOR POTTINGS Service/4.webp",
       "./Images/THERMAL SENSOR POTTINGS Service/5.webp",
-      "./Images/THERMAL SENSOR POTTINGS Service/6.webp",
-      "./Images/THERMAL SENSOR POTTINGS Service/7.webp",
-      "./Images/THERMAL SENSOR POTTINGS Service/8.webp",
+      "./Images/THERMAL SENSOR POTTINGS Service/1.webp",
+      "./Images/THERMAL SENSOR POTTINGS Service/2.webp",
+      "./Images/THERMAL SENSOR POTTINGS Service/3.webp",
     ],
     20: [
       "./Images/DRONES -FLYING -ASSEMBLY Service/1.webp",
@@ -273,14 +273,14 @@ $(document).ready(function () {
         './Images/OODA BOND CERAMIC Service/injection_mold_ejector_services_8.webp',
     ],
     28: [
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_1.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_2.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_3.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_4.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_5.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_6.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_7.webp',
-        './Images/Pnematic and Hydraulic Equipments/injection_mold_ejector_services_8.webp',
+        './Images/Pnematic and Hydraulic Equipments/1.webp',
+        './Images/Pnematic and Hydraulic Equipments/2.webp',
+        './Images/Pnematic and Hydraulic Equipments/3.webp',
+        './Images/Pnematic and Hydraulic Equipments/4.webp',
+        './Images/Pnematic and Hydraulic Equipments/5.webp',
+        './Images/Pnematic and Hydraulic Equipments/6.webp',
+        './Images/Pnematic and Hydraulic Equipments/7.webp',
+        './Images/Pnematic and Hydraulic Equipments/8.webp',
     ],
     29: [
       "./Images/Foundry Sand core Bonding Service/1.webp",
@@ -330,6 +330,7 @@ $(document).ready(function () {
     ],
 
     7: [
+      "Silver conductive epoxies are used in electronic and semiconductor industries to bond chips securely.These adhesives allow electricity to flow while holding components firmly in place.",
     ],
 
     8: [
@@ -358,6 +359,7 @@ $(document).ready(function () {
     ],
 
     13: [
+      "Adhesives are widely used in jewellery mold and pattern making to fix wax patterns.They help maintain accurate shapes and fine design details during assembly.These adhesives make it easier to handle delicate parts without damage."
     ],
 
     14: [
@@ -423,11 +425,11 @@ $(document).ready(function () {
 
     ],
     27: [
-      "Nameplate bonder adhesives permanently attach metal, plastic, and printed labels to appliances, machinery, and vehicles. They provide weather resistance, chemical stability, and tamper-proof bonding for branding and identification. Pressure-sensitive and structural adhesives suit various substrates. Used across manufacturing industries, they maintain legibility and professional appearance throughout product lifecycles.",
+      "Ceramic and material bonding adhesives are used to securely join ceramic parts with other materials. They are designed to work in high temperature and heavy-duty industrial environments.",
 
     ],
     28: [
-      "Nameplate bonder adhesives permanently attach metal, plastic, and printed labels to appliances, machinery, and vehicles. They provide weather resistance, chemical stability, and tamper-proof bonding for branding and identification. Pressure-sensitive and structural adhesives suit various substrates. Used across manufacturing industries, they maintain legibility and professional appearance throughout product lifecycles.",
+      "Adhesives are used in pneumatic and hydraulic systems to seal joints and fittings.They prevent air and fluid leakage under high pressure conditions.",
 
     ],
     29: [

@@ -379,7 +379,7 @@ $(document).ready(() => {
       "Curing time": "Preheat: 650°F for 6 min Postheat: 475°F for 1 minute",
     },
     applications: {
-      "./assets/images/application_image/nylon-11-/Valves.webp/nylon_powder/Valves.png": "Valves",
+      "./assets/images/application_image/nylon-11-/Valves.webp": "Valves",
       "./assets/images/application_image/nylon-11-/Construction.webp": "Construction",
       "./assets/images/application_image/nylon-11-/Automotive parts.webp": "Automotive parts",
       "./assets/images/application_image/nylon-11-/Claddings.webp": "Claddings",

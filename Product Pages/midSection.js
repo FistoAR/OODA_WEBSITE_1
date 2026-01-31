@@ -235,7 +235,7 @@ $(document).ready(() => {
       "Open pot life mixed": "Maximum 4 minutes",
     },
     applications: {
-      "./assets/images/application_imagse/11116/Pipe_Sealant.webp": "Pipe Sealant",
+      "./assets/images/application_image/11116/Pipe_Sealant.webp": "Pipe Sealant",
       "./assets/images/application_image/11116/Leathe.webp": "Leather",
       "./assets/images/application_image/11116/phenolic_laminates.webp": "phenolic laminates",
       "./assets/images/application_image/11116/Epoxy.webp": "Epoxy",
@@ -263,11 +263,11 @@ $(document).ready(() => {
       "Curing time": "2–3 minutes (air dry)",
     },
     applications: {
-      "./assets/images/MOSw-2/Bushings.webp": "Bushings",
-      "./assets/images/MOSw-2/Automotive.webp": "Automotive",
-      "./assets/images/MOSw-2/Bond of Rubber.webp": "Bond of Rubber",
-      "./assets/images/MOSw-2/AerospaceAviation.webp": "Aerospace/Aviation",
-      "./assets/images/MOSw-2/Bond to ferrous and nonferrous metals.webp": "Bond to ferrous and nonferrous metals"
+      "./assets/images/application_image/mos2-/Bushings.webp": "Bushings",
+      "./assets/images/application_image/mos2-/Automotive.webp": "Automotive",
+      "./assets/images/application_image/mos2-/Bond of Rubber.webp": "Bond of Rubber",
+      "./assets/images/application_image/mos2-/aerospace.webp": "Aerospace/Aviation",
+      "./assets/images/application_image/mos2-/Bond to ferrous and nonferrous metals.webp": "Bond to ferrous and nonferrous metals"
     },
     benefits: [
       "Quick-Dry Bonding Dries to the touch in seconds; no heating or baking required",
@@ -293,11 +293,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Not applicable",
     },
     applications: {
-      "./assets/images/High_temp_grease/Marine Equipment.webp": "Marine Equipment",
-      "./assets/images/High_temp_grease/Universal Joints.webp": "Universal Joints",
-      "./assets/images/High_temp_grease/Boat Trailer Bearings.webp": "Boat Trailer Bearings",
-      "./assets/images/High_temp_grease/Water Pumps.webp": "Water Pumps",
-      "./assets/images/High_temp_grease/Anchor Winches.webp": "Anchor Winches"
+      "./assets/images/application_image/high-temp-/Marine Equipment.webp": "Marine Equipment",
+      "./assets/images/application_image/high-temp-/Universal Joints.webp": "Universal Joints",
+      "./assets/images/application_image/high-temp-/Boat Trailer Bearings.webp": "Boat Trailer Bearings",
+      "./assets/images/application_image/high-temp-/Water Pumps.webp": "Water Pumps",
+      "./assets/images/application_image/high-temp-/Anchor Winches.webp": "Anchor Winches"
     },
     benefits: [
       "Activated PTFE forms a protective film on metal surfaces, minimizing metal-to-metal contact",
@@ -351,11 +351,11 @@ $(document).ready(() => {
       "Viscosity": "2,500 cps @ 25°C (Brookfield RVT Spindle 4 @ 25 rpm)",
     },
     applications: {
-      "./assets/images/High_strength/Motor shafts and gears.webp": "Motor shafts and gears",
-      "./assets/images/High_strength/Bushings in housings.webp": "Bushings in housings",
-      "./assets/images/High_strength/Pipe plugs and fittings.webp": "Pipe plugs and fittings",
-      "./assets/images/High_strength/Electric motors.webp": "Electric motors",
-      "./assets/images/High_strength/Pump and compressor assemblies.webp": "Pump and compressor assemblies"
+      "./assets/images/application_image/bearing-retainers-/Motor shafts and gears.webp": "Motor shafts and gears",
+      "./assets/images/application_image/bearing-retainers-/Bushings in housings.webp": "Bushings in housings",
+      "./assets/images/application_image/bearing-retainers-/Pipe plugs and fittings.webp": "Pipe plugs and fittings",
+      "./assets/images/application_image/bearing-retainers-/Electric motors.webp": "Electric motors",
+      "./assets/images/application_image/bearing-retainers-/Pump and compressor assemblies.webp": "Pump and compressor assemblies"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -379,11 +379,11 @@ $(document).ready(() => {
       "Curing time": "Preheat: 650°F for 6 min Postheat: 475°F for 1 minute",
     },
     applications: {
-      "./assets/images/nylon_powder/Valves.png": "Valves",
-      "./assets/images/nylon_powder/Construction.png": "Construction",
-      "./assets/images/nylon_powder/Automotive parts.webp": "Automotive parts",
-      "./assets/images/nylon_powder/Claddings.png": "Claddings",
-      "./assets/images/nylon_powder/Engineering components.webp": "Engineering components"
+      "./assets/images/application_image/nylon-11-/Valves.webp/nylon_powder/Valves.png": "Valves",
+      "./assets/images/application_image/nylon-11-/Construction.webp": "Construction",
+      "./assets/images/application_image/nylon-11-/Automotive parts.webp": "Automotive parts",
+      "./assets/images/application_image/nylon-11-/Claddings.webp": "Claddings",
+      "./assets/images/application_image/nylon-11-/Engineering components.webp": "Engineering components"
     },
     benefits: [
       "Excellent adhesive strength",

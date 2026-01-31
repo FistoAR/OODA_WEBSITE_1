@@ -366,7 +366,7 @@ $(document).ready(() => {
       "Excellent chemical resistance",
     ],
 
-    title: "6838 High Strength"
+    title: "Bearing Retainers"
   };
 
   const Nylon_Liquid_Powder = {

@@ -1176,6 +1176,7 @@ section.products-section {
     z-index: 20;
     text-transform: uppercase;
     bottom: 42vw !important;
+    left: 32vw !important;
     line-height: 1.2;
   }
   .card .center-image {
@@ -1193,6 +1194,9 @@ section.products-section {
 
     #product-name-uv{
         bottom: 52vw !important;
+        left: 32vw !important;
+    }
+    .card:nth-child(even) .product-name {
         left: 32vw !important;
     }
 }

@@ -158,14 +158,29 @@
                         <input type="text" class="form-input" placeholder="Subject" name="subject" required>
                     </div>
                     <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Interested Product Category" name="InterestedProductCategory" required>
+                    </div>
+                     <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Base resin in your Formulation (if any)" name="BaseResinInYourFormulation" >
+                    </div>
+                    <div class="form-group">
                         <input type="text" class="form-input" placeholder="Enquiry Type" name="enquiryType" required>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-input" placeholder="Application Details"
                             name="applicationDetails" required>
                     </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Application Parameters"
+                            name="applicationParameters" required>
+                    </div>
                     <div class="form-group">
                         <input type="text" class="form-input" placeholder="Technical Details" name="technicalDetails"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Required Quantity" name="RequiredQuantity"
                             required>
                     </div>
                 </div>
@@ -200,6 +215,8 @@
                     <ul class="useful_links">
                         <li><i class="fas fa-home"></i> <a href="../homepage/index.html">Home</a></li>
                         <li> <i class="fas fa-info-circle"></i> <a href="../about_us/index.html">About</a></li>
+                        <li> <i class="fas fa-solid fa-cart-shopping"></i> <a id="ProductsBtn"
+                                class="products-link">Products</a></li>
                         <li> <i class="fas fa-th-large"></i> <a href="../Applications/index.html">Applications</a></li>
                         <li><i class="fas fa-paper-plane"></i> <a href="../contact/index.html">Contact</a></li>
                     </ul>
@@ -207,19 +224,24 @@
                 <div class="grid-item">
                     <p class="grid-title">Contact Info</p>
                     <ul class="contact-list">
-                        <li>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:customercare@oodabond.com" target="_blank">customercare@oodabond.com</a>
+                        <li style="display: flex; justify-content: start; align-items: start; ">
+                            <i class="fas fa-envelope" style="margin-top: 9px;"></i>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                                <a href="mailto:customercare@oodabond.com">customercare@oodabond.com</a>
+                                <a href="mailto:ooagvs@gmail.com">ooagvs@gmail.com</a>
+                            </div>
+
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
-                            <a href="tel:+919840338011">+91 9840338011</a>, 
+                            <a href="tel:+919840338011">+91 9840338011</a>,
                             <a href="tel:+919025662899">+91 9025662899</a>
                         </li>
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://maps.app.goo.gl/Qo4fodPDAKp4Fne9A" target="_blank"> Thiruvengada Perumal Kovil Street, Vengadamangalam, <br>
-                            Ponmar Post, Chennai - 600048</a>
+                            <a href="https://maps.app.goo.gl/Qo4fodPDAKp4Fne9A" target="_blank"> Thiruvengada Perumal
+                                Kovil Street, Vengadamangalam, <br>
+                                Ponmar Post, Chennai - 600048</a>
                         </li>
                     </ul>
                 </div>
@@ -236,6 +258,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="./script.js"></script>
     <script src="../global.js"></script>
+
+    <script>
+        document.getElementById("ProductsBtn").addEventListener("click", function () {
+            document.querySelector(".products-link").click();
+        });
+    </script>
+
 </body>
 
 </html>

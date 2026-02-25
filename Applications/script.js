@@ -521,7 +521,7 @@ $(document).ready(function () {
     ],
 
     28: [
-      "ZTT electrical connector adhesives ensure strong bonding, insulation, and durability. They resist vibration, temperature, and moisture, maintaining reliable electrical connections in industrial and automotive systems.",
+      "Electrical connector adhesives ensure strong bonding, insulation, and durability. They resist vibration, temperature, and moisture, maintaining reliable electrical connections in industrial and automotive systems.",
     ],
 
     29: [

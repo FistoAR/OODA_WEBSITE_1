@@ -522,8 +522,8 @@
                                 srcset="./productImg/preApplied/500x721.webp 500w, ./productImg/preApplied/800x1154.webp 800w, ./productImg/preApplied/827x1193.webp 827w" />
                             <img class="bg-image" src="./homepage/images/products/Card 4/955x603.webp"
                                 srcset="./homepage/images/products/Card 4/500x316.webp 500w, ./images/products/Card 4/800x505.webp 800w, ./images/products/Card 4/955x603.webp 955w" />
-                            <div class="product-name">85 –S Pre Applied Thread
-                                Coating</div>
+                            <div class="product-name"> Pre Applied Thread
+                                Locker</div>
                         </a>
                     </div>
 
@@ -559,18 +559,23 @@
                             <ul class="useful_links">
                                 <li><i class="fas fa-home"></i> <a href="../homepage/index.html">Home</a></li>
                                 <li> <i class="fas fa-info-circle"></i> <a href="../about_us/index.html">About</a></li>
-                                <li> <i class="fas fa-th-large"></i> <a
-                                        href="../Applications/index.html">Applications</a></li>
+                                <li> <i class="fas fas fa-solid fa-cart-shopping"></i> <a id="ProductsBtn" class="products-link">Products</a></li>
+                                <li> <i class="fas fa-th-large"></i> <a href="../Applications/index.html">Applications</a></li>
                                 <li><i class="fas fa-paper-plane"></i> <a href="../contact/index.html">Contact</a></li>
                             </ul>
                         </div>
                         <div class="grid-item">
                             <p class="grid-title">Contact Info</p>
                             <ul class="contact-list">
-                                <li>
-                                    <i class="fas fa-envelope"></i>
-                                    <a href="mailto:customercare@oodabond.com">customercare@oodabond.com</a>
+                                <li style="display: flex; justify-content: start; align-items: start; ">
+                                    <i class="fas fa-envelope" style="margin-top: 9px;"></i>
+                                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                                        <a href="mailto:customercare@oodabond.com">customercare@oodabond.com</a> 
+                                     <a  href="mailto:ooagvs@gmail.com">ooagvs@gmail.com</a>
+                                    </div>
+                                    
                                 </li>
+                                
                                 <li>
                                     <i class="fas fa-phone"></i>
                                     <a href="tel:+919840338011">+91 9840338011</a>,
@@ -656,6 +661,10 @@
     </script>
 <script>
 document.getElementById("viewMoreBtn").addEventListener("click", function() {
+    document.querySelector(".products-link").click();
+});
+
+document.getElementById("ProductsBtn").addEventListener("click", function() {
     document.querySelector(".products-link").click();
 });
 </script>

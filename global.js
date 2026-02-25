@@ -425,7 +425,15 @@ if (document.readyState === 'loading') {
 
 
 
-        document.getElementById("ProductsBtn").addEventListener("click", function () {
-            document.querySelector(".products-link").click();
-        });
+
    
+
+
+
+
+
+
+
+
+
+

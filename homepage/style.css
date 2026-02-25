@@ -884,7 +884,7 @@ section.products-section {
     display: inline-block;
     line-height: 1.25;
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 
 .letter {
@@ -1116,18 +1116,19 @@ section.products-section {
     .card .product-name {
         position: absolute;
         color: #ffffff;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         font-weight: 700;
         text-align: center;
         padding: 1rem 0 2rem;
         z-index: 20;
         text-transform: uppercase;
         bottom: -2vw !important;
+        line-height: 1.3;
 
     }
 
     .card:nth-child(even) .product-name {
-        left: 4vw !important;
+        left: 2vw !important;
     }
 
     .card:nth-child(odd) .product-name {
@@ -1164,7 +1165,37 @@ section.products-section {
     }
 }
 
+@media (max-width: 480px) {
+  .card .product-name {
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem 0 2rem;
+    z-index: 20;
+    text-transform: uppercase;
+    bottom: 42vw !important;
+    line-height: 1.2;
+  }
+  .card .center-image {
+        position: absolute;
+        width: 50%;
+        max-width: 350px;
+        margin: -25% auto 0 auto;
+        /* Pull up above the card's bottom */
+        margin-left: unset;
+        display: block;
+        z-index: 10;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
+    #product-name-uv{
+        bottom: 52vw !important;
+        left: 32vw !important;
+    }
+}
 
 /************************************************************************* short brief about us *********************************************************************/
 

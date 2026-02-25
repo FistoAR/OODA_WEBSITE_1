@@ -13,7 +13,7 @@
                         height: 50px;
                         border-radius: 100px;
                         border: 0;
-                        z-index: 9999;
+                        z-index: 99;
                         color: white;
                         transition: 0.3s ease;
                         background-color: #03934d;

@@ -24,6 +24,23 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./slider.css">
+    <style>
+        #preload-video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            /* Default for desktop */
+        }
+
+        /* Mobile & Tablet */
+        @media (max-width: 1024px) {
+            #preload-video {
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body style="opacity: 0;">
@@ -37,7 +54,7 @@
     <div id="video-preloader"
         style="position: fixed; z-index: 9999; max-width: 100vw; max-height: 100vh; overflow: hidden; background: black; display: flex; align-items: center; justify-content: center;">
         <video id="preload-video" autoplay muted playsinline
-            style="max-width: 100%; max-height: 100%; object-fit: cover; height: 100%; width: 100%;">
+            style="max-width: 100vw; max-height: 100vh;  height: 100vh; width: 100vw;">
             <source src="./preloader_animatino_video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
@@ -57,7 +74,7 @@
 
         <nav class="nav-links">
             <a href="../homepage" class="active">HOME</a>
-            <a href="../about_us">ABOUT US</a>
+            <a href="../about_us" class="about-link">ABOUT US</a>
             <a href="#" class="products-link">PRODUCTS</a>
             <a href="../Applications/">APPLICATIONS</a>
             <a href="../contact">CONTACT US</a>
@@ -203,7 +220,7 @@
                     corresponding
                     high level of customer and technical support.
                 </p>
-                <button class="short-brief-button" style="--content: 'Know more';"
+                <button id="knowMoreBtn" class="short-brief-button" style="--content: 'Know more';"
                     href="https://twitter.com/kamildyrek">
                     <div class="left"></div>
                     Know more
@@ -478,7 +495,7 @@
                                 srcset="./homepage/images/products/Bottle/500x721/Blue.webp 500w, ./homepage/images/products/Bottle/800x 1154/Blue.webp 800w, ./homepage/images/products/Bottle/827x1193/Blue.webp 827w" />
                             <img class="bg-image" src="./homepage/images/products/Card 2/955x603.webp"
                                 srcset="./homepage/images/products/Card 2/500x316.webp 500w, ./images/products/Card 2/800x505.webp 800w, ./images/products/Card 2/955x603.webp 955w" />
-                            <div class="product-name">109 UV Ultra Clear</div>
+                            <div class="product-name " id="product-name-uv" >109 UV Ultra Clear</div>
 
                         </a>
                         <a class="card" href="../Product Pages/1K_Single_Part_Epoxy.html" target="_blank">
@@ -511,11 +528,16 @@
                     </div>
 
                 </section>
-                <button class="view-more-button" style="--content: 'View More';" href="https://twitter.com/kamildyrek">
+                <button id="viewMoreBtn" class="view-more-button" style="--content: 'View More';" href="./">
                     <div class="left"></div>
                     View More
                     <div class="right"></div>
                 </button>
+                <!-- <a href="../products" class="view-more-button" style="--content: 'View More';">
+                    <div class="left"></div>
+                    View More
+                    <div class="right"></div>
+                </a> -->
             </div>
 
 
@@ -550,8 +572,9 @@
                                     <a href="mailto:customercare@oodabond.com">customercare@oodabond.com</a>
                                 </li>
                                 <li>
-                                    <i class="fas fa-phone-alt"></i>
-                                    <a href="tel:+919840338011">+91 9840338011</a>
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+919840338011">+91 9840338011</a>,
+                                    <a href="tel:+919025662899">+91 9025662899</a>
                                 </li>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
@@ -607,30 +630,40 @@
     <script src="..//global.js"></script>
 
     <script>
-          const isSession = sessionStorage.getItem("triggerPreloader");
+        const isSession = sessionStorage.getItem("triggerPreloader");
 
-  if (isSession) {
-    setTimeout(() => {
-      document.body.style.opacity = 1;
+        if (isSession) {
+            setTimeout(() => {
+                document.body.style.opacity = 1;
 
-      const preloaderVideo = document.getElementById('preload-video');
-      preloaderVideo.currentTime = 0;
-      preloaderVideo.play();
+                const preloaderVideo = document.getElementById('preload-video');
+                preloaderVideo.currentTime = 0;
+                preloaderVideo.play();
 
-      const homepageVideo = document.getElementById('homepageVideo');
-      preloaderVideo.addEventListener('ended', () => {
-      // Do NOT reset homepageVideo.currentTime
-      homepageVideo.currentTime = 0;
-      homepageVideo.play();
-    });
+                const homepageVideo = document.getElementById('homepageVideo');
+                preloaderVideo.addEventListener('ended', () => {
+                    // Do NOT reset homepageVideo.currentTime
+                    homepageVideo.currentTime = 0;
+                    homepageVideo.play();
+                });
 
-    }, 2000);
-  }
-  else {
-    document.body.style.opacity = 1;
-  }
+            }, 2000);
+        }
+        else {
+            document.body.style.opacity = 1;
+        }
 
     </script>
+<script>
+document.getElementById("viewMoreBtn").addEventListener("click", function() {
+    document.querySelector(".products-link").click();
+});
+</script>
+<script>
+document.getElementById("knowMoreBtn").addEventListener("click", function() {
+    document.querySelector(".about-link").click();
+});
+</script>
 </body>
 
 </html>

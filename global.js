@@ -195,7 +195,7 @@ logo.addEventListener('click', () => {
                         height: 75px;
                         border-radius: 100px;
                         border: 0;
-                        z-index: 9999;
+                        z-index: 99;
                         color: white;
                         transition: 0.3s ease;
                         background: linear-gradient(65deg, #19cb47, #0078b7);

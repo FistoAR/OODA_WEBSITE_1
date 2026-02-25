@@ -325,7 +325,7 @@ section.products-section {
     display: inline-block;
     line-height: 1.25;
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 
 .letter {

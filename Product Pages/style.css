@@ -1295,7 +1295,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 125px;
+    min-height: 175px;
 }
 
 /* Last card full row */
@@ -2152,4 +2152,11 @@ button::before {
         margin-bottom: 26%;
         row-gap: 1%;
     }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mob-sec-grid-card {
+    height: 250px;
+  }
 }

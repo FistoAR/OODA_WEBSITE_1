@@ -1407,3 +1407,9 @@
 }
  }
  
+
+ @media (min-width: 765px) and (max-width: 1024px) {
+  .mob-sec-grid-card {
+    height: 250px;
+  }
+}

@@ -198,11 +198,11 @@ $(document).ready(() => {
 
     technicalProperties: {
       "Product color": "Colourless liquid (custom colors available)",
-      "Electrical properties": "Dielectric Strength: >400 V/mil Withstand Voltage: >1500 V",
+      "Electrical properties": "Dielectric Strength: >400 V/mil, Withstand Voltage: >1500 V",
       "Temperature": " -50°C to +175°C",
       "Mixing Ratio": "No mixing required",
-      "Strength": "Lap Shear Strength: 120 psi Tensile Strength: 5100 psi",
-      "Curing time": "ood Lamp: 1–2 min Conveyor: 0.5–4 min",
+      "Strength": "Lap Shear Strength: 120 psi, Tensile Strength: 5100 psi",
+      "Curing time": "Flood Lamp: 1–2 min, Conveyor: 0.5–4 min",
       "Viscosity": "2000–4000 cP @ 25°C, 20 RPM",
     },
     applications: {

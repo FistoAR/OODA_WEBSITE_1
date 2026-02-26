@@ -129,7 +129,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .info-content {
@@ -355,7 +355,7 @@ textarea.form-input {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .submit-btn:hover {

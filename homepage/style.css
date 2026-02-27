@@ -1156,6 +1156,8 @@ section.products-section {
         gap: 8rem;
         margin-top: 6rem;
     }
+
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -2713,4 +2715,18 @@ button::before {
     .bullet-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+
+
+/* iPad Mini (Portrait & Landscape) */
+@media only screen and (min-width: 600px) and (max-width: 1124px) {
+
+        .card .center-image {
+            max-width: 250px;
+        }
+    .card .bg-image {
+        width: 73%;
+    }
+
 }

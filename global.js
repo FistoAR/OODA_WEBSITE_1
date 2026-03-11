@@ -108,18 +108,18 @@ const imgSources = [
 
 gridItems.forEach((item, index) => {
   item.addEventListener('mouseenter', () => {
-    if (!item.querySelector('img.select-icon')) {
-      const img = document.createElement('img');
-      img.src = '../nav/green_active.svg';
-      img.alt = 'select icon';
-      img.classList.add('select-icon');
-      item.appendChild(img);
-    }
+    // if (!item.querySelector('img.select-icon')) {
+    //   const img = document.createElement('img');
+    //   img.src = '../nav/green_active.svg';
+    //   img.alt = 'select icon';
+    //   img.classList.add('select-icon');
+    //   item.appendChild(img);
+    // }
 
-    // Temporary hover image
-    if (productImage && index < 12) {
-      productImage.src = imgSources[index];
-    }
+    // // Temporary hover image
+    // if (productImage && index < 12) {
+    //   productImage.src = imgSources[index];
+    // }
   });
 
   item.addEventListener('mouseleave', () => {

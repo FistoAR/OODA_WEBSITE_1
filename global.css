@@ -333,8 +333,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 33.33%;
-    max-width: 33.33%;
+    width: 22.22%;
+    max-width: 22.22%;
+    gap:15%;
 }
 
 
@@ -846,6 +847,7 @@ body {
     margin-bottom: 50px;
     width: 50%;
     height: auto;
+
 }
 
 .footer-new {
@@ -990,4 +992,24 @@ body {
     .contact-list a {
         color: #fff;
     }
+    /* new footer */
+.footer-logo2 {
+
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+.grid-item-card {
+   
+           /* ADD THIS — critical for flex children */
+}
+
+.grid-item-card p {
+    flex: 1;
+    min-width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;          /* ADD THIS — p needs block display for ellipsis */
 }

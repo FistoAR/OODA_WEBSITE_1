@@ -79,6 +79,7 @@ $(document).ready(() => {
     "Bearing Retainers": "./assets/images/Application Images/6838 High strength.webp",
     "Nylon-11 Liquid Powder": "./assets/images/Application Images/Nylon 11.webp",
     "2870 thread locker": "./assets/images/Application Images/thread_locker.webp",
+    
   };
 
   const Ultra_Clear_109 = {
@@ -91,11 +92,11 @@ $(document).ready(() => {
       "Open pot life mixed": "30 to 35 minutes"
     },
     applications: {
-      "./assets/images/application_image/109_uc/Electronic Device.jpg": "Electronic Device",
-      "./assets/images/application_image/109_uc/Home Appliance.jpg": "Home Appliance",
-      "./assets/images/application_image/109_uc/Automotive.jpg": "Automotive",
-      "./assets/images/application_image/109_uc/Aerospace.jpg": "Aerospace",
-      "./assets/images/application_image/109_uc/Metal Fabrication.jpg": "Metal Fabrication"
+      "./assets/images/application_image/109_uc/PCB Potting.webp": "PCB Potting",
+       "./assets/images/application_image/109_uc/PCB Component Bonding.webp": "PCB Component Bonding",
+      "./assets/images/application_image/109_uc/Electronic Potting.webp": "Electronic Potting",
+      "./assets/images/application_image/109_uc/PCB Assembly Industry.webp": "PCB Assembly Industry",
+      "./assets/images/application_image/109_uc/Clear Casting.webp": "Clear Casting"
 
     },
     benefits: [
@@ -122,11 +123,11 @@ $(document).ready(() => {
       "Viscosity": "2000–4000 cP @ 25°C, 20 RPM"
     },
     applications: {
-      "./assets/images/application_image/109_uv_uc/Smartphone & tablet  screen bonding@4x.jpg": "Smartphone & tablet  screen bonding",
-      "./assets/images/application_image/109_uv_uc/LED lighting assembly@4x.jpg": "LED lighting assembly",
-      "./assets/images/application_image/109_uv_uc/Medical device assembly@4x.jpg": "Medical device assembly",
-      "./assets/images/application_image/109_uv_uc/Optical lens bonding@4x.jpg": "Optical lens bonding",
-      "./assets/images/application_image/109_uv_uc/Glass & acrylic bonding@4x.jpg": "Glass & acrylic bonding"
+      "./assets/images/application_image/109_uv_uc/Fastener Thread Locking.webp": "Fastener Thread Locking",
+      "./assets/images/application_image/109_uv_uc/UV Adhesive Curing.webp": "UV Adhesive Curing",
+      "./assets/images/application_image/109_uv_uc/PCB Potting & Protection.webp": "PCB Potting & Protection",
+      "./assets/images/application_image/109_uv_uc/Glass Bonding.webp": "Glass Bonding",
+      "./assets/images/application_image/109_uv_uc/Lens Bonding.webp": "Lens Bonding"
     },
     benefits: [
       "Cure on Demand",
@@ -150,11 +151,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Not applicable"
     },
     applications: {
-      "./assets/images/application_image/109_TG/CPU & GPU Cooling.jpg": "CPU & GPU Cooling",
-      "./assets/images/application_image/109_TG/Automotive Thermal  Management.jpg": "Automotive Thermal  Management",
-      "./assets/images/application_image/109_TG/LED Heat Dissipation.jpg": "LED Heat Dissipation",
-      "./assets/images/application_image/109_TG/Electric Motor Thermal Support.jpg": "Electric Motor Thermal Support",
-      "./assets/images/application_image/109_TG/Medical Device Thermal Aid.jpg": "Medical Device Thermal Aid"
+      "./assets/images/application_image/109_TG/Automated fluid dispensing.webp": "Automated fluid dispensing",
+      "./assets/images/application_image/109_TG/chip Assembly.webp": "chip Assembly",
+      "./assets/images/application_image/109_TG/PCB Assembly.webp": "PCB Assembly",
+      "./assets/images/application_image/109_TG/Electronics devices.webp": "Electronics devices",
+      "./assets/images/application_image/109_TG/Manufacuring Assembly.webp": "Manufacuring Assembly"
     },
     benefits: [
       "High thermal conductivity",
@@ -176,11 +177,11 @@ $(document).ready(() => {
       "Curing time": "2–3 minutes (with activator)",
     },
     applications: {
-      "./assets/images/application_image/thread-lockers-pre-applied/Automotive Fastener Assembly.jpg": "Automotive Fastener Assembly",
-      "./assets/images/application_image/thread-lockers-pre-applied/HVAC Equipment Assembly.jpg": "HVAC Equipment Assembly",
-      "./assets/images/application_image/thread-lockers-pre-applied/Electronics Screw Locking.jpg": "Electronics Screw Locking",
-      "./assets/images/application_image/thread-lockers-pre-applied/Aerospace Fastener Security.jpg": "Aerospace Fastener Security",
-      "./assets/images/application_image/thread-lockers-pre-applied/Pump & Motor Fastening.jpg": "Pump & Motor Fastening"
+      "./assets/images/application_image/thread-lockers-pre-applied/Automotive.webp": "Automotive",
+      "./assets/images/application_image/thread-lockers-pre-applied/Thread Sealing Components.webp": "Thread Sealing Components",
+      "./assets/images/application_image/thread-lockers-pre-applied/Pre-Coated Threaded Fasteners.webp": "Pre-Coated Threaded Fasteners",
+      "./assets/images/application_image/thread-lockers-pre-applied/Fastener Coating Process.webp": "Fastener Coating Process",
+      "./assets/images/application_image/thread-lockers-pre-applied/Manual Threadlocker Coating.webp": "Manual Threadlocker Coating"
     },
     benefits: [
       "Prevents loosening of bolts due to vibration",
@@ -235,11 +236,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Maximum 4 minutes",
     },
     applications: {
-      "./assets/images/application_image/11116/Metal bonding.jpg": "Metal bonding",
-      "./assets/images/application_image/11116/Surface repair.jpg": "Surface repair",
-      "./assets/images/application_image/11116/Crack filling.jpg": "Crack filling",
-      "./assets/images/application_image/11116/Hole filling.jpg": "Hole filling",
-      "./assets/images/application_image/11116/Pipe repair.jpg": "Pipe repair"
+      "./assets/images/application_image/11116/Pump  Repair.webp": "Pump  Repair",
+      "./assets/images/application_image/11116/Industrial metal epoxy putty.webp": "Industrial metal epoxy putty",
+      "./assets/images/application_image/11116/Pipeline Connectivity.webp": "Pipeline Connectivity",
+      "./assets/images/application_image/11116/Shaft Repair.webp": "Shaft Repair",
+      "./assets/images/application_image/11116/Pipe Damage Repair.webp": "Pipe Damage Repair"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -263,11 +264,11 @@ $(document).ready(() => {
       "Curing time": "2–3 minutes (air dry)",
     },
     applications: {
-      "./assets/images/application_image/mos2-/Machine components.jpg": "Machine components",
-      "./assets/images/application_image/mos2-/Production equipment.jpg": "Production equipment",
-      "./assets/images/application_image/mos2-/Metal surfaces.jpg": "Metal surfaces",
-      "./assets/images/application_image/mos2-/Assembly parts.jpg": "Assembly parts",
-      "./assets/images/application_image/mos2-/Industrial tools.jpg": "Industrial tools"
+      "./assets/images/application_image/mos2-/O-Ring & Seal Coating.webp": "O-Ring & Seal Coating",
+      "./assets/images/application_image/mos2-/Engine Component Lubrication.webp": "Engine Component Lubrication",
+      "./assets/images/application_image/mos2-/Metal Gasket Lubrication.webp": "Metal Gasket Lubrication",
+      "./assets/images/application_image/mos2-/Industrial Gasket Coating.webp": "Industrial Gasket Coating",
+      "./assets/images/application_image/mos2-/Engine Assembly.webp": "Engine Assembly"
     },
     benefits: [
       "Quick-Dry Bonding Dries to the touch in seconds; no heating or baking required",
@@ -293,11 +294,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Not applicable",
     },
     applications: {
-      "./assets/images/application_image/high-temp-/Industrial bearings.jpg": "Industrial bearings",
-      "./assets/images/application_image/high-temp-/Guide rails.jpg": "Guide rails",
-      "./assets/images/application_image/high-temp-/Conveyor systems.jpg": "Conveyor systems",
-      "./assets/images/application_image/high-temp-/Valves and actuators.jpg": "Valves and actuators",
-      "./assets/images/application_image/high-temp-/Threads and fasteners.jpg": "Threads and fasteners"
+      "./assets/images/application_image/high-temp-/Bearing Lubrication.webp": "Bearing Lubrication",
+      "./assets/images/application_image/high-temp-/Automotive.webp": "Automotive",
+      "./assets/images/application_image/high-temp-/Gearbox Lubrication.webp": "Gearbox Lubrication",
+      "./assets/images/application_image/high-temp-/Plastic Gear Lubrication.webp": "Plastic Gear Lubrication",
+      "./assets/images/application_image/high-temp-/Wheel Bearing Lubrication.webp": "Wheel Bearing Lubrication"
     },
     benefits: [
       "Activated PTFE forms a protective film on metal surfaces, minimizing metal-to-metal contact",
@@ -324,11 +325,11 @@ $(document).ready(() => {
       "Open pot life mixed": "Work time: 20 minutes (500g @ 24°C)",
     },
     applications: {
-      "./assets/images/application_image/v52-aluminum-putty/Marine.jpg": "Marine",
-      "./assets/images/application_image/v52-aluminum-putty/Heavy Equipment Maintenance.jpg": "Heavy Equipment Maintenance",
-      "./assets/images/application_image/v52-aluminum-putty/Automotive Body & Frame Repair.jpg": "Automotive Body & Frame Repair",
-      "./assets/images/application_image/v52-aluminum-putty/Compressor & Pump Housing Fixing.jpg": "Compressor & Pump Housing Fixing",
-      "./assets/images/application_image/v52-aluminum-putty/Metal Fabrication Touch-Up.jpg": "Metal Fabrication Touch-Up"
+      "./assets/images/application_image/v52-aluminum-putty/Foundry Industry.webp": "Foundry Industry",
+      "./assets/images/application_image/v52-aluminum-putty/Industrial Equipment.webp": "Industrial Equipment",
+      "./assets/images/application_image/v52-aluminum-putty/Marine Engineering Industry.webp": "Marine Engineering Industry",
+      "./assets/images/application_image/v52-aluminum-putty/Metal Casting - Foundry Industry.webp": "Metal Casting / Foundry Industry.",
+      "./assets/images/application_image/v52-aluminum-putty/Engine block repair.webp": "Engine block repair"
     },
     benefits: [
       "Can be machined, drilled or tapped using conventional metalworking tools    ",
@@ -351,11 +352,11 @@ $(document).ready(() => {
       "Viscosity": "2,500 cps @ 25°C (Brookfield RVT Spindle 4 @ 25 rpm)",
     },
     applications: {
-      "./assets/images/application_image/bearing-retainers-/Electric motors.jpg": "Electric motors",
-      "./assets/images/application_image/bearing-retainers-/Industrial bearings.jpg": "Industrial bearings",
-      "./assets/images/application_image/bearing-retainers-/Industrial pumps.jpg": "Industrial pumps",
-      "./assets/images/application_image/bearing-retainers-/Gearboxes.jpg": "Gearboxes",
-      "./assets/images/application_image/bearing-retainers-/Housing assemblies.jpg": "Housing assemblies"
+      "./assets/images/application_image/bearing-retainers-/Automotive Bolt Assembly.webp": "Automotive Bolt Assembly",
+      "./assets/images/application_image/bearing-retainers-/Bearing Installation & Retention.webp": "Bearing Installation & Retention",
+      "./assets/images/application_image/bearing-retainers-/Rotor Connectivity.webp": "Rotor Connectivity",
+      "./assets/images/application_image/bearing-retainers-/Roller Shaft Retention.webp": "Roller Shaft Retention",
+      "./assets/images/application_image/bearing-retainers-/Industrial Gearbox.webp": "Industrial Gearbox"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -379,11 +380,11 @@ $(document).ready(() => {
       "Curing time": "Preheat: 650°F for 6 min Postheat: 475°F for 1 minute",
     },
     applications: {
-      "./assets/images/application_image/nylon-11-/Metal parts.jpg": "Metal parts",
-      "./assets/images/application_image/nylon-11-/Pipes fittings.jpg": "Pipes fittings",
-      "./assets/images/application_image/nylon-11-/Machine components.jpg": "Machine components",
-      "./assets/images/application_image/nylon-11-/Industrial components.jpg": "Industrial components",
-      "./assets/images/application_image/nylon-11-/Fasteners coating.jpg": "Fasteners coating"
+      "./assets/images/application_image/nylon-11-/Metal Protection coating.webp": "Metal Protection coating",
+      "./assets/images/application_image/nylon-11-/Pipes fittings.webp": "Pipes fittings",
+      "./assets/images/application_image/nylon-11-/Copper Coating.webp": "Copper Coating",
+      "./assets/images/application_image/nylon-11-/Fastener  Assembly.webp": "Fastener  Assembly",
+      "./assets/images/application_image/nylon-11-/Industrial Bolt Coating.webp": "Industrial Bolt Coating"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -407,11 +408,11 @@ $(document).ready(() => {
       "Curing time": "Preheat: 650°F for 6 min Postheat: 475°F for 1 minute",
     },
     applications: {
-      "./assets/images/application_image/thread-lockers/Transmission nuts.jpg": "Transmission nuts",
-      "./assets/images/application_image/thread-lockers/Power Equipment Fastening.jpg": "Power Equipment Fastening",
-      "./assets/images/application_image/thread-lockers/Automotive.jpg": "Automotive",
-      "./assets/images/application_image/thread-lockers/Pump & Compressor Fastening.jpg": "Pump & Compressor Fastening",
-      "./assets/images/application_image/thread-lockers/Oil & Gas Thread Security.jpg": "Oil & Gas Thread Security"
+      "./assets/images/application_image/thread-lockers/Industrial Bolt Locking.webp": "Industrial Bolt Locking",
+      "./assets/images/application_image/thread-lockers/Fastener.webp": "Fastener",
+      "./assets/images/application_image/thread-lockers/Gear Bolt Installation.webp": "Gear Bolt Installation",
+      "./assets/images/application_image/thread-lockers/Electronics  Assembly.webp": "Electronics Assembly",
+      "./assets/images/application_image/thread-lockers/Automotive Fasterner.webp": "Automotive Fasterner"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -424,6 +425,16 @@ $(document).ready(() => {
 
     title: "2870 thread locker"
   };
+
+
+// ********************New Product Page List*******************************
+
+
+// ********************New Product Page List*******************************
+
+
+
+
 
   const mapping = {
     "109_Ultra_Clear": Ultra_Clear_109,
@@ -438,6 +449,7 @@ $(document).ready(() => {
     "High_Strength": High_strength,
     "Nylon-11_Liquid_Powder": Nylon_Liquid_Powder,
     "2870_Thread_Locker": thread_locker,
+    
   };
 
   const path = window.location.pathname;

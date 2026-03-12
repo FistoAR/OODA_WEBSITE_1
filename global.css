@@ -402,7 +402,7 @@ body {
 
     .product-link-img-container {
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
     }
 
     .link-grid {
@@ -450,7 +450,7 @@ body {
     }
 
     .product-link-img-container {
-        gap: 15px;
+        gap: 0px;
     }
 
     .link-grid {
@@ -957,6 +957,11 @@ body {
     .social-icons {
         justify-content: center;
     }
+    .footer-logo2 {
+
+    margin-right: auto;
+    margin-left: auto;
+}
 }
 
 /* Mobile View (1 Column) */

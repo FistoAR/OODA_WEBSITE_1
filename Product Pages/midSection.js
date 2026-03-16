@@ -207,11 +207,11 @@ $(document).ready(() => {
       "Viscosity": "2000–4000 cP @ 25°C, 20 RPM",
     },
     applications: {
-      "./assets/images/application_image/single_part_epoxy/Automotive.jpg": "Automotive",
-      "./assets/images/application_image/single_part_epoxy/Home Appliance Assembly.jpg": "Home Appliance Assembly",
-      "./assets/images/application_image/single_part_epoxy/Metal Part Assembly.jpg": "Metal Part Assembly",
-      "./assets/images/application_image/single_part_epoxy/Ceramic Part Bonding.jpg": "Ceramic Part Bonding",
-      "./assets/images/application_image/single_part_epoxy/Furniture & Fixture Assembly.jpg": "Furniture & Fixture Assembly"
+      "./assets/images/application_image/single_part_epoxy/Magnet Potting.webp": "Magnet Potting",
+      "./assets/images/application_image/single_part_epoxy/Electrical potting.webp": "Electrical potting",
+      "./assets/images/application_image/single_part_epoxy/Electronics devices.webp": "Electronics devices",
+      "./assets/images/application_image/single_part_epoxy/High strength Epoxy.webp": "High strength Epoxy",
+      "./assets/images/application_image/single_part_epoxy/Electric Vehicle Motor.webp": "Electric Vehicle Motor"
     },
     benefits: [
       "Excellent adhesive strength",
@@ -264,7 +264,7 @@ $(document).ready(() => {
       "Curing time": "2–3 minutes (air dry)",
     },
     applications: {
-      "./assets/images/application_image/mos2-/O-Ring & Seal Coating.webp": "O-Ring & Seal Coating",
+      "./assets/images/application_image/mos2-/Metal Gasket Protection.webp": "Metal Gasket Protection",
       "./assets/images/application_image/mos2-/Engine Component Lubrication.webp": "Engine Component Lubrication",
       "./assets/images/application_image/mos2-/Metal Gasket Lubrication.webp": "Metal Gasket Lubrication",
       "./assets/images/application_image/mos2-/Industrial Gasket Coating.webp": "Industrial Gasket Coating",

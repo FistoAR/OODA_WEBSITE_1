@@ -169,11 +169,23 @@ gridItems.forEach((item, index) => {
 //   }
 // });
 
-const demobtn = document.querySelector('.nav-button');
+// const demobtn = document.querySelector('.nav-button');
 
-demobtn.addEventListener('click', () => {
-  window.location.href = '../contact/index.html#contactSection';
-});
+// demobtn.addEventListener('click', () => {
+//   window.location.href = '../contact/index.html#contactSection';
+// });
+
+
+
+document.getElementById("downloadBtn").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "/OODA_BOND.pdf"; // path to your PDF
+    link.download = "OODA_Bond.pdf"; // file name after download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+
 
 const logo = document.querySelector('.logo');
 logo.addEventListener('click', () => {

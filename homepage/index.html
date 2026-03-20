@@ -670,29 +670,30 @@
     <script src="..//global.js"></script>
 
     <script>
-        const isSession = sessionStorage.getItem("triggerPreloader");
+      const isSession = sessionStorage.getItem("triggerPreloader");
 
-        if (isSession) {
-            setTimeout(() => {
-                document.body.style.opacity = 1;
+if (isSession) {
+    setTimeout(() => {
+        document.body.style.opacity = 1;
 
-                const preloaderVideo = document.getElementById('preload-video');
-                preloaderVideo.currentTime = 0;
-                preloaderVideo.play();
+        const preloaderVideo = document.getElementById('preload-video');
+        const homepageVideo = document.getElementById('homepageVideo');
 
-                const homepageVideo = document.getElementById('homepageVideo');
-                preloaderVideo.addEventListener('ended', () => {
-                    // Do NOT reset homepageVideo.currentTime
-                    homepageVideo.currentTime = 0;
-                    homepageVideo.play();
-                });
+        preloaderVideo.currentTime = 0;
+        preloaderVideo.muted = false;
+        preloaderVideo.volume = 1;
+        preloaderVideo.play();
 
-            }, 2000);
-        }
-        else {
-            document.body.style.opacity = 1;
-        }
+        preloaderVideo.addEventListener('ended', () => {
+            homepageVideo.currentTime = 0;
+            homepageVideo.play();
+        });
 
+    }, 2000);
+
+} else {
+    document.body.style.opacity = 1;
+}
     </script>
 <script>
 document.getElementById("viewMoreBtn").addEventListener("click", function() {

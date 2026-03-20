@@ -57,7 +57,12 @@
    
     sessionStorage.setItem("triggerPreloader", "true");
     window.location.href = "./homepage/index.html";
-        
+        const video = document.getElementById("preload-video");
+
+  document.addEventListener("click", () => {
+    video.muted = false;
+    video.play();
+  });
   </script>
 </body>
 

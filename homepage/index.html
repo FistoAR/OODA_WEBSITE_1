@@ -680,9 +680,14 @@ if (isSession) {
         const homepageVideo = document.getElementById('homepageVideo');
 
         preloaderVideo.currentTime = 0;
-        preloaderVideo.muted = false;
-        preloaderVideo.volume = 1;
+        preloaderVideo.muted = true; // Start muted
         preloaderVideo.play();
+
+        // Click anywhere → unmute
+        document.addEventListener("click", () => {
+            preloaderVideo.muted = false;
+            preloaderVideo.volume = 1;
+        }, { once: true }); // only fires once
 
         preloaderVideo.addEventListener('ended', () => {
             homepageVideo.currentTime = 0;

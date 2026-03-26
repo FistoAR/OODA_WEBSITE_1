@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
   //   "2044_Pre_Applied_Thread_Locker.webp",
   //   "2870_Thread_Locker.webp",
   //   "6838High_strength.webp",
-  //   "11116_Metal_Expoxy.webp",
+  //   "11116_Metal_Epoxy.webp",
   //   "Nylon11.webp",
   //   "single_part_epoxy.webp",
-  //   "v52_Aluminum_Expoxy.webp"
+  //   "v52_Aluminum_Epoxy.webp"
   // ];
 
   // images.forEach((file) => {

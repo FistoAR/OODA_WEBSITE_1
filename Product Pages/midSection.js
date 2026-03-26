@@ -71,7 +71,7 @@ $(document).ready(() => {
     "109 UV Ultra Clear": "./assets/images/Application Images/109 UV.webp",
     "TG 109": "./assets/images/Application Images/109 TG.webp",
     "Preekkote 85 – S": "./assets/images/Application Images/Preekkote 85-s.webp",
-    "1k Single part epoxy": "./assets/images/Application Images/1k single part epoxy.webp",
+    "1k Single Part Epoxy": "./assets/images/Application Images/1k Single Part Epoxy.webp",
     "11116 Metal Epoxy": "./assets/images/Application Images/11116 Metal Epoxy.webp",
     "MOS2-W Dry Coating": "./assets/images/Application Images/Mos2 Liquid powder.webp",
     "High Temperature Ptfe Grease": "./assets/images/Application Images/High temperature PTFE .webp",
@@ -222,7 +222,7 @@ $(document).ready(() => {
       "Compatible with many types of plastics"
     ],
 
-    title: "1k Single part epoxy"
+    title: "1k Single Part Epoxy"
   };
 
   const Metal_epoxy = {
@@ -442,7 +442,7 @@ $(document).ready(() => {
     "TG-109_Thermal_Conductive_Grease": TG_109,
     "Preekkote_85%E2%80%93S": Preekkote_85,
     "1K_Single_Part_Epoxy": Single_part_epoxy,
-    "11116_Metal_Expoxy": Metal_epoxy,
+    "11116_Metal_Epoxy": Metal_epoxy,
     "MOS2-W_Dry_Coating": mos2_dry_coating,
     "High_Temperature_Ptfe_Grease": high_temperature_ptfe,
     "V52_Aluminium_Putty": V52_Aluminium_Putty,

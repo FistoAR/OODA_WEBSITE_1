@@ -180,7 +180,7 @@ gridItems.forEach((item, index) => {
 document.getElementById("downloadBtn").addEventListener("click", function () {
     const link = document.createElement("a");
     link.href = "/OODA_BOND.pdf"; // path to your PDF
-    link.download = "OODA_Bond.pdf"; // file name after download
+    link.download = "OODA_BOND.pdf"; // file name after download
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
